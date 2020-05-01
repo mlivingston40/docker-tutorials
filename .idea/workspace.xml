@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b3d86da-a594-4025-aca3-f832184c3963" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/create-your-first-image-2.3/flask-app/docker-run-app.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-pull-image.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-push-image.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-your-first-image-2.3/flask-app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/create-your-first-image-2.3/flask-app/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create-your-first-image-2.3/flask-app/docker-build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker-build-image.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create-your-first-image-2.3/flask-app/docker-run-app.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker-run-container.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create-your-first-image-2.3/instructions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/create-your-first-image-2.3/instructions.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/labs" beforeDir="false" afterPath="$PROJECT_DIR$/labs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/labs/beginner/static-site/Dockerfile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/labs/beginner/static-site/Hello_docker.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-site-2.1/stop-remove-container.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker-remove-container.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,15 +22,6 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/create-your-first-image-2.3/flask-app/docker-run-app.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/create-your-first-image-2.3/flask-app/app.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -53,12 +47,16 @@
         <option value="$PROJECT_DIR$/static-site/docker-run.sh" />
         <option value="$PROJECT_DIR$/docker-images-2.2/docker-images-avail.sh" />
         <option value="$PROJECT_DIR$/docker-images-2.2/instructions.txt" />
-        <option value="$PROJECT_DIR$/create-your-first-image-2.3/instructions.txt" />
         <option value="$PROJECT_DIR$/create-your-first-image-2.3/flask-app/templates/index.html" />
         <option value="$PROJECT_DIR$/create-your-first-image-2.3/flask-app/docker-build.sh" />
         <option value="$PROJECT_DIR$/create-your-first-image-2.3/flask-app/Dockerfile" />
         <option value="$PROJECT_DIR$/create-your-first-image-2.3/flask-app/app.py" />
         <option value="$PROJECT_DIR$/create-your-first-image-2.3/flask-app/docker-run-app.sh" />
+        <option value="$PROJECT_DIR$/docker-build.sh" />
+        <option value="$PROJECT_DIR$/docker-run-container.sh" />
+        <option value="$PROJECT_DIR$/docker-push-image.sh" />
+        <option value="$PROJECT_DIR$/create-your-first-image-2.3/instructions.txt" />
+        <option value="$PROJECT_DIR$/docker-pull-image.sh" />
       </list>
     </option>
   </component>
@@ -93,23 +91,6 @@
               <item name="create-your-first-image-2.3" type="462c0819:PsiDirectoryNode" />
               <item name="flask-app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="docker-tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docker-tutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="create-your-first-image-2.3" type="462c0819:PsiDirectoryNode" />
-              <item name="flask-app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="docker-tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docker-tutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="docker-images-2.2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="docker-tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docker-tutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="static-site-2.1" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -125,8 +106,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static-site" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/static-site" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -151,18 +132,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588263244873</updated>
-      <workItem from="1588263246396" duration="18390000" />
+      <workItem from="1588263246396" duration="20104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18390000" />
+    <option name="totallyTimeSpent" value="20104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-110" y="-1080" width="1920" height="1080" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17358893" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17305644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -214,20 +195,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create-your-first-image-2.3/instructions.txt">
+    <entry file="file://$PROJECT_DIR$/create-your-first-image-2.3/flask-app/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create-your-first-image-2.3/flask-app/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create-your-first-image-2.3/flask-app/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="390">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -238,17 +209,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create-your-first-image-2.3/flask-app/docker-build.sh">
+    <entry file="file://$PROJECT_DIR$/create-your-first-image-2.3/flask-app/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-remove-container.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="64" lean-forward="true" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+        <state relative-caret-position="210">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create-your-first-image-2.3/flask-app/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/create-your-first-image-2.3/instructions.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        <state relative-caret-position="330">
+          <caret line="22" column="100" selection-start-line="22" selection-start-column="100" selection-end-line="22" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-build-image.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create-your-first-image-2.3/flask-app/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-pull-image.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-push-image.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-run-container.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -259,20 +268,6 @@
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static-site-2.1/stop-remove-container.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create-your-first-image-2.3/flask-app/docker-run-app.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
