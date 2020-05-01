@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b3d86da-a594-4025-aca3-f832184c3963" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-pull-image.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-push-image.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-your-first-image-2.3/flask-app/docker-build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker-build-image.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-your-first-image-2.3/flask-app/docker-run-app.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker-run-container.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-your-first-image-2.3/instructions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/create-your-first-image-2.3/instructions.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/labs" beforeDir="false" afterPath="$PROJECT_DIR$/labs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/labs/beginner/static-site/Dockerfile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/labs/beginner/static-site/Hello_docker.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static-site-2.1/stop-remove-container.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker-remove-container.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,20 +13,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/create-your-first-image-2.3/flask-app/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/docker-build-image.sh">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/create-your-first-image-2.3/flask-app/Dockerfile">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -132,12 +139,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588263244873</updated>
-      <workItem from="1588263246396" duration="20104000" />
+      <workItem from="1588263246396" duration="20442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20104000" />
+    <option name="totallyTimeSpent" value="20442000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-110" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -226,20 +233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-build-image.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create-your-first-image-2.3/flask-app/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-pull-image.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -268,6 +261,20 @@
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create-your-first-image-2.3/flask-app/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-build-image.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
         </state>
       </provider>
     </entry>
